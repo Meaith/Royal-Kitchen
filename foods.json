@@ -1,0 +1,231 @@
+{
+  "Rice Combos": [
+    {
+      "name": "Jollof Rice + Chicken + Plantain",
+      "price": 11500
+    },
+    {
+      "name": "Jollof Rice + Chicken + Plantain + coleslaw",
+      "price": 13000
+    },
+    {
+      "name": "Fried Rice + Chicken + Plantain",
+      "price": 12000
+    },
+    {
+      "name": "Fried Rice + Chicken + Plantain + coleslaw",
+      "price": 13500
+    },
+    {
+      "name": "Basmati Rice + Stew + Beef + Plantain",
+      "price": 13500
+    },
+    {
+      "name": "Basmati Rice + Stew + Beef + Plantain + coleslaw",
+      "price": 15000
+    },
+    {
+      "name": "white Rice + Stew + Beef + Plantain",
+      "price": 7500
+    }
+  ],
+
+  "Soup & swallows": [
+    {
+      "name": "owho soup + starch",
+      "price": 5500
+    },
+    {
+      "name": "edikaikong + poundo + goat meat",
+      "price": 11000
+    },
+    {
+      "name": "eguisi soup + beef + semo",
+      "price": 7500
+    }
+  ],
+
+  "Banga Soup + Starch + Catfish Combos": [
+    {
+      "name": "With Catfish tail",
+      "price": 10500
+    },
+    {
+      "name": "with catfish center",
+      "price": 11500
+    },
+    {
+      "name": "with cat fish head",
+      "price": 12500
+    }
+  ],
+
+  "fisherman soup + semo Combos": [
+    {
+      "name": "With Catfish",
+      "price": 19500
+    },
+    {
+      "name": "with fresh fish ",
+      "price": 29500
+    },
+    {
+      "name": "with tilapia",
+      "price": 29500
+    }
+  ],
+
+  "pepper soup": [
+    {
+      "name": "goat meat pepper soup",
+      "price": 6000
+    },
+    {
+      "name": "ukodo pepper soup",
+      "price": 8000
+    },
+    {
+      "name": "chicken pepper soup",
+      "price": 7500
+    },
+    {
+      "name": "cow tail pepper soup",
+      "price": 8000
+    },
+    {
+      "name": "bush meat pepper soup",
+      "price": 10000
+    },
+    {
+      "name": "red snipper pepper soup",
+      "price": 13000
+    }
+  ],
+
+  "catfish pepper soup": [
+    {
+      "name": "catfish tail",
+      "price": 6500
+    },
+    {
+      "name": "catfish center",
+      "price": 7500
+    },
+    {
+      "name": "catfish head",
+      "price": 8500
+    },
+    {
+      "name": "catfish pot",
+      "price": 16500
+    }
+  ],
+
+  
+  "noodles and spaghetti options": [
+    {
+      "name": "yam + egg sauce",
+      "price": 6000
+    },
+    {
+      "name": "fried plantain + egg sauce",
+      "price": 600
+    },
+    {
+      "name": "noodles + egg",
+      "price": 4000
+    },
+    {
+      "name": "noodles + beef",
+      "price": 4000
+    },
+    {
+      "name": "singapore noodles + turkey",
+      "price": 10500
+    },
+    {
+      "name": "stir-Fried spaghetti + chicken",
+      "price": 9500
+    },
+    {
+      "name": "spaghetti jollof + chicken",
+      "price": 9500
+    },
+    {
+      "name": "chicken & chips",
+      "price": 7500
+    }
+  ],
+
+
+  "Rice": [
+    {
+      "name": "Jollof Rice",
+      "price": 2500
+    },
+    {
+      "name": "Fried Rice",
+      "price": 2800
+    },
+    {
+      "name": "Coconut Rice",
+      "price": 3000
+    }
+  ],
+
+  "Protein": [
+    {
+      "name": "Grilled Chicken",
+      "price": 2000
+    },
+    {
+      "name": "Fried Chicken",
+      "price": 1800
+    },
+    {
+      "name": "Beef",
+      "price": 1500
+    }
+  ],
+  
+  "Sides": [
+    {
+      "name": "Fried Plantain",
+      "price": 1200
+    },
+    {
+      "name": "Moi Moi",
+      "price": 1000
+    }
+  ],
+
+  "Shawarma": [
+    {
+      "name": "shawarma small",
+      "price": 1500
+    },
+    {
+      "name": "shawarma extra",
+      "price": 500
+    }
+  ],
+
+  "special takeaway packs": [
+  {
+    "name": "special takeaway pack",
+    "price": 2200
+  },
+  {
+    "name": "takeaway pack(mini)",
+    "price": 2200
+  },
+  {
+    "name": "takeaway pack(small)",
+    "price": 2200
+  },
+  {
+    "name": "takeaway pack(big)",
+    "price": 2200
+  }
+]
+}
