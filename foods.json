@@ -175,16 +175,100 @@
 
   "Protein": [
     {
-      "name": "Grilled Chicken",
+      "name": "peppered Chicken",
+      "price": 5000
+    },
+    {
+      "name": "peppered kpomo",
       "price": 2000
     },
     {
-      "name": "Fried Chicken",
-      "price": 1800
+      "name": "cow tail",
+      "price": 5000
     },
     {
-      "name": "Beef",
-      "price": 1500
+      "name": "Goat meat",
+      "price": 4500
+    },
+    {
+      "name": "Goat leg sauce",
+      "price": 3000
+    },
+    {
+      "name": "beef",
+      "price": 1000
+    },
+    {
+      "name": "tiko meat (for owho soup)",
+      "price": 1000
+    },
+    {
+      "name": "bush meat",
+      "price": 5000
+    },
+    {
+      "name": "snail sauce",
+      "price": 6000
+    },
+    {
+      "name": "shredded beef sauce",
+      "price": 6000
+    },
+    {
+      "name": "tiger prawn",
+      "price": 4500
+    },
+    {
+      "name": "tiger prawn(jumbo size)",
+      "price": 8000
+    },
+    {
+      "name": "asun",
+      "price": 5000
+    },
+    {
+      "name": "nkwobi",
+      "price": 5000
+    },
+    {
+      "name": "isiewu(half pot)",
+      "price": 8500
+    },
+    {
+      "name": "isiewu(full pot)",
+      "price": 17000
+    },
+    {
+      "name": "peppered goat meat sauce",
+      "price": 5000
+    },
+    {
+      "name": "peppered turkey",
+      "price": 6500
+    },
+    {
+      "name": "fried sabida fish",
+      "price": 2000
+    },
+    {
+      "name": "sauced sabida fish(whole)",
+      "price": 6500
+    },
+    {
+      "name": "tilapia fish(medium)",
+      "price": 10000
+    },
+    {
+      "name": "tilapia fish(large)",
+      "price": 15000
+    },
+    {
+      "name": "tilapia(x large)",
+      "price": 20000
+    },
+    {
+      "name": "giz-dodo",
+      "price": 7000
     }
   ],
   
@@ -194,38 +278,38 @@
       "price": 1200
     },
     {
-      "name": "Moi Moi",
-      "price": 1000
+      "name": "Colelaw",
+      "price": 1500
     }
   ],
 
   "Shawarma": [
     {
       "name": "shawarma small",
-      "price": 1500
+      "price": 4500
     },
     {
       "name": "shawarma extra",
-      "price": 500
+      "price": 6000
     }
   ],
 
   "special takeaway packs": [
   {
     "name": "special takeaway pack",
-    "price": 2200
+    "price": 1500
   },
   {
     "name": "takeaway pack(mini)",
-    "price": 2200
+    "price": 200
   },
   {
     "name": "takeaway pack(small)",
-    "price": 2200
+    "price": 300
   },
   {
     "name": "takeaway pack(big)",
-    "price": 2200
+    "price": 500
   }
 ]
 }

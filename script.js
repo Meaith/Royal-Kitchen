@@ -9,7 +9,7 @@ window.addEventListener('scroll', () => {
 })
 
 const phoneNumber = "2349078729164";
-const message = "Hello, I would like to make an order for";
+const message = "Hello, I would like to place an order for";
 const message_btn = document.querySelector('.message_btn')
 
 const whatsappLink =
