@@ -9,7 +9,7 @@ window.addEventListener('scroll', () => {
 })
 
 const phoneNumber = "2349078729164";
-const message = "Hello, I would like to place an order for";
+let message = "Hello.\nI would like to place an order for";
 const message_btn = document.querySelector('.message_btn')
 
 const whatsappLink =
@@ -20,60 +20,75 @@ message_btn.addEventListener('click', ()=>{
   window.open(whatsappLink, "_blank");
 })
 
-fetch("foods.json")
-    .then(response => response.json())
-    .then(data => {
 
-        const foodTables = document.getElementById("foodTables");
+// fetch("foods.json")
+//     .then(response => response.json())
+//     .then(data => {
 
-        Object.keys(data).forEach(category => {
+//         const foodTables = document.getElementById("foodTables");
 
-            // Create category section
-            const section = document.createElement("section");
+//         Object.keys(data).forEach(category => {
 
-            // Category heading
-            const heading = document.createElement("h2");
-            heading.textContent = category;
+//             // Create category section
+//             const section = document.createElement("section");
 
-            // Create table
-            const table = document.createElement("table");
-            table.classList.add("product-table")
+//             // Category heading
+//             const heading = document.createElement("h2");
+//             heading.textContent = category;
 
-            table.innerHTML = `
-                <thead>
-                    <tr>
-                        <th>Food</th>
-                        <th>Price</th>
-                    </tr>
-                </thead>
+//             // Create table
+//             const table = document.createElement("table");
+//             table.classList.add("product-table")
 
-                <tbody></tbody>
-            `;
+//             table.innerHTML = `
+//                 <thead>
+//                     <tr>
+//                         <th>Food</th>
+//                         <th>Price</th>
+//                     </tr>
+//                 </thead>
 
-            const tbody = table.querySelector("tbody");
+//                 <tbody></tbody>
+//             `;
 
-            // Add foods to the table
-            data[category].forEach(food => {
+//             const tbody = table.querySelector("tbody");
 
-                const row = document.createElement("tr");
 
-                row.innerHTML = `
-                    <td class='left'>${food.name}</td>
-                    <td>₦${food.price.toLocaleString()}</td>
-                `;
+//             // Add foods to the table
+//             data[category].forEach(food => {
 
-                tbody.appendChild(row);
-            });
+//                 const row = document.createElement("tr");
 
-            // Add heading and table to section
-            section.appendChild(heading);
-            section.appendChild(table);
+//                 row.innerHTML = `
+//                     <td class='left'>${food.name}</td>
+//                     <td>₦${food.price.toLocaleString()}</td>
+//                 `;
 
-            // Add section to page
-            foodTables.appendChild(section);
-        });
+//                 tbody.appendChild(row);
 
-    })
-    .catch(error => {
-        console.error("Error loading food data:", error);
-    });
+
+//                 //THIS IS FOR ORDERING A SPECIFIC ITEM ON THE MENU
+                
+//                 // row.addEventListener("click", () => {
+//                 //     message = 
+//                 //     `Hello \nI would like to place an order for ${food.name} at the price of ₦${food.price.toLocaleString()}`
+//                 //     window.open(`https://wa.me/+${phoneNumber}?text=${encodeURIComponent(message)}`)
+//                 // })
+//             });
+
+//             // Add heading and table to section
+//             section.appendChild(heading);
+//             section.appendChild(table);
+
+//             // Add section to page
+//             foodTables.appendChild(section);
+//         });
+
+        
+
+//     })
+//     .catch(error => {
+//         console.error("Error loading food data:", error);
+//     });
+
+    
