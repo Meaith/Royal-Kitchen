@@ -20,6 +20,7 @@ message_btn.addEventListener('click', ()=>{
   window.open(whatsappLink, "_blank");
 })
 
+// import { Analytics } from "@vercel/analytics/next"
 
 // fetch("foods.json")
 //     .then(response => response.json())
