@@ -20,6 +20,11 @@ message_btn.addEventListener('click', ()=>{
   window.open(whatsappLink, "_blank");
 })
 
+const copyright = document.querySelector('.copyright')
+
+copyright.innerHTML = `&copy Tebula ${new Date().getFullYear()}`
+
+console.log(copyright)
 // import { Analytics } from "@vercel/analytics/next"
 
 // fetch("foods.json")
